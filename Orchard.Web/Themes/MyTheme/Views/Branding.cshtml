@@ -1,0 +1,5 @@
+﻿@{
+    var homeUrl = Href("~/");
+    var logoUrl = Url.Content(Html.ThemePath(WorkContext.CurrentTheme, "/Content/Images/logo.png"));
+}
+<a href="@homeUrl"><img src="@logoUrl" alt="" /></a>
